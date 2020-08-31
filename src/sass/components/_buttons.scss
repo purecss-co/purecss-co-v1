@@ -1,0 +1,32 @@
+.btn-small, .btn-white{
+  color: $main-color;
+  margin-top: 20px !important;
+  background: white;
+  font-weight: 600;
+  font-size: 14px;
+  // display: inline-block;
+  padding: 5px 7px;
+  border-radius: 4px;
+  transition: box-shadow 175ms ease-out;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+  &:hover{
+    color: $main-color;
+    text-decoration: none;
+    box-shadow:0 4px 10px rgba(0,0,0,0.25);
+  }
+}
+
+.btn-blue{
+  background: linear-gradient(to right, #0278f7, #00cefa);
+  border: none;
+  padding: 6px 8px;
+  color: white;
+  box-shadow: none;
+
+  &:hover{
+    color: white;
+    box-shadow: none;
+    background: linear-gradient(to left, #0278f7, #00cefa);
+  }
+}
