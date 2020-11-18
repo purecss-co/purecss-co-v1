@@ -4,6 +4,15 @@ const app = new Vue({
   data: {
     arts: [
       {
+        title: "Responsive JomLaunch Logo",
+        image: "/img/jomlaunch.png",
+        codepen: "https://codepen.io/AsyrafHussin/pen/rNLbvZp",
+        github: "https://github.com/purecss-co/jomlaunch-logo",
+        website: "https://launch.jomweb.my/",
+        design: "",
+        border: "",
+      },
+      {
         title: "Responsive Sports Car",
         image: "/img/sports-car.png",
         codepen: "https://codepen.io/AsyrafHussin/pen/ZEQXXrx",
@@ -507,7 +516,7 @@ import ScrollReveal from "scrollreveal";
 ScrollReveal().reveal(".card-custom", { delay: 375, duration: 1500 });
 
 // toggle nightmode
-document.getElementById("nightmode").addEventListener("click", function () {
+document.getElementById("nightmode").addEventListener("click", function() {
   document.body.classList.toggle("nightmode");
   var moon = document.getElementById("moon-icon");
   moon.classList.toggle("far");
