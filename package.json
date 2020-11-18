@@ -18,7 +18,6 @@
     "browser-sync-webpack-plugin": "^2.2.2",
     "cross-env": "^7.0",
     "cssnano": "^4.1.10",
-    "import-glob-loader": "^1.1.0",
     "jquery": "^3.5.1",
     "laravel-mix": "^5.0.9",
     "lodash": "^4.17.20",
