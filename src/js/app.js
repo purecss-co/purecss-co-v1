@@ -4,7 +4,7 @@ const app = new Vue({
   data: {
     arts: [
       {
-        title: "Responsive Responsive DigitalOcean Sammy the Shark",
+        title: "Responsive DigitalOcean Sammy the Shark",
         image: "/img/sammy-the-shark.png",
         codepen: "https://codepen.io/AsyrafHussin/pen/gOMJPxy",
         github: "https://github.com/purecss-co/sammy-the-shark",
