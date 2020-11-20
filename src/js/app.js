@@ -4,6 +4,15 @@ const app = new Vue({
   data: {
     arts: [
       {
+        title: "Responsive PS5 Logo",
+        image: "/img/ps5.png",
+        codepen: "https://codepen.io/AsyrafHussin/pen/ZEONdwE",
+        github: "https://github.com/purecss-co/ps5-logo",
+        website: "",
+        design: "",
+        border: "",
+      },
+      {
         title: "Responsive DigitalOcean Sammy the Shark",
         image: "/img/sammy-the-shark.png",
         codepen: "https://codepen.io/AsyrafHussin/pen/gOMJPxy",
