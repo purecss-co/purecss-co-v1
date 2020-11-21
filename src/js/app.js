@@ -4,6 +4,15 @@ const app = new Vue({
   data: {
     arts: [
       {
+        title: "Responsive Chicken",
+        image: "/img/chicken.png",
+        codepen: "https://codepen.io/AsyrafHussin/pen/QWEXgrZ",
+        github: "https://github.com/purecss-co/chicken",
+        website: "",
+        design: "https://dribbble.com/shots/5259998-Chicken",
+        border: "",
+      },
+      {
         title: "Responsive PS5 Logo",
         image: "/img/ps5.png",
         codepen: "https://codepen.io/AsyrafHussin/pen/ZEONdwE",
