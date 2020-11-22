@@ -4,6 +4,15 @@ const app = new Vue({
   data: {
     arts: [
       {
+        title: "Responsive The Queen's Gambit",
+        image: "/img/queens-gambit.png",
+        codepen: "https://codepen.io/AsyrafHussin/pen/wvWLRpO",
+        github: "https://github.com/AsyrafHussin/queens-gambit",
+        website: "",
+        design: "https://dribbble.com/shots/14571164-Queen-s-Gambit",
+        border: "",
+      },
+      {
         title: "Responsive Chicken",
         image: "/img/chicken.png",
         codepen: "https://codepen.io/AsyrafHussin/pen/QWEXgrZ",
