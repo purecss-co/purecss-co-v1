@@ -10,7 +10,7 @@ const app = new Vue({
         github: "https://github.com/purecss-co/laravel-logo",
         website: "https://laravel.com/",
         design: "",
-        border: "",
+        border: "border-top",
       },
       {
         title: "Responsive The Queen's Gambit",
