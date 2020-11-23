@@ -4,10 +4,19 @@ const app = new Vue({
   data: {
     arts: [
       {
+        title: "Responsive Laravel Logo",
+        image: "/img/laravel.png",
+        codepen: "https://codepen.io/AsyrafHussin/pen/MWeNjJg",
+        github: "https://github.com/purecss-co/laravel-logo",
+        website: "https://laravel.com/",
+        design: "",
+        border: "",
+      },
+      {
         title: "Responsive The Queen's Gambit",
         image: "/img/queens-gambit.png",
         codepen: "https://codepen.io/AsyrafHussin/pen/wvWLRpO",
-        github: "https://github.com/AsyrafHussin/queens-gambit",
+        github: "https://github.com/purecss-co/queens-gambit",
         website: "",
         design: "https://dribbble.com/shots/14571164-Queen-s-Gambit",
         border: "",
