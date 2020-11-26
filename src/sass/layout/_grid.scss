@@ -1,0 +1,14 @@
+.row-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-top: 30px;
+}
+
+.row-grid-question {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}

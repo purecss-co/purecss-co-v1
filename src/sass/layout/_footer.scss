@@ -1,41 +1,42 @@
-.footer{
-  background: white;
-  border-top: 1px solid rgba(0,0,0,.125);
-  padding-top: 70px;
-  padding-bottom: 70px;
+.footer {
+    background: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    padding-top: 70px;
+    padding-bottom: 70px;
 
-  .grid-footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
-    .title{
-      color: $main-color;
-      font-weight: 700;
-      font-size: 24px;
+        .title {
+            color: $main-color;
+            font-weight: 700;
+            font-size: 24px;
 
-      span{
-        font-weight: 400;
-      }
+            span {
+                font-weight: 400;
+                margin-left: -6px;
+            }
+        }
+
+        .title-sub {
+            font-size: 16px;
+            font-weight: 300;
+            color: $main-color;
+        }
+
+        .title-sharing {
+            color: #8f92b0;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .fab {
+            font-size: 20px;
+            color: $main-color;
+            margin-top: 13px;
+            margin-right: 22px;
+        }
     }
-
-    .title-sub{
-      font-size: 16px;
-      font-weight: 300;
-      color: $main-color;
-    }
-
-    .title-sharing{
-      color: #8f92b0;
-      font-size: 15px;
-      font-weight: 600;
-      text-transform: uppercase;
-    }
-
-    .fab{
-      font-size: 20px;
-      color: $main-color;
-      margin-top: 13px;
-      margin-right: 22px;
-    }
-  }
 }

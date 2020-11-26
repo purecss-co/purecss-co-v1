@@ -1,18 +1,4 @@
-.content{
-  padding-top: 40px;
-  padding-bottom: 40px;
-
-  .row-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-  }
-
-  .row-grid-question{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-  }
+.content {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }

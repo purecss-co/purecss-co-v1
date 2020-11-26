@@ -2,9 +2,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     background: white;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid #ced4da;
     transition: all 250ms ease-out;
-    // box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 
     .navbar-brand {
         .navbar-title {
@@ -23,6 +22,7 @@
 
             span {
                 font-weight: 400;
+                margin-left: -6px;
             }
         }
 
