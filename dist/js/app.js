@@ -86,6 +86,75 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/js/components/App.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/js/components/App.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _arts_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arts.json */ "./src/js/components/arts.json");
+var _arts_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./arts.json */ "./src/js/components/arts.json", 1);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  el: "#app",
+  data: function data() {
+    return {
+      search: "",
+      arts: _arts_json__WEBPACK_IMPORTED_MODULE_0__
+    };
+  },
+  computed: {
+    artsFilterList: function artsFilterList() {
+      var _this = this;
+
+      return this.arts.filter(function (art) {
+        return _this.search.toLowerCase().split(" ").every(function (v) {
+          return art.title.toLowerCase().includes(v);
+        });
+      });
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -551,6 +620,243 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (this && this.clearImmediate);
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/js/components/App.vue?vue&type=template&id=9c9d20f6&":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/js/components/App.vue?vue&type=template&id=9c9d20f6& ***!
+  \************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "form-group" }, [
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.search,
+            expression: "search"
+          }
+        ],
+        staticClass: "form-control",
+        attrs: {
+          type: "text",
+          placeholder: "Quick search for title. eg: DigitalOcean"
+        },
+        domProps: { value: _vm.search },
+        on: {
+          input: function($event) {
+            if ($event.target.composing) {
+              return
+            }
+            _vm.search = $event.target.value
+          }
+        }
+      })
+    ]),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "row-grid" },
+      _vm._l(_vm.artsFilterList, function(art) {
+        return _c("div", { key: art.codepen, staticClass: "card-custom" }, [
+          _c("div", { staticClass: "card-img-container" }, [
+            _c("img", {
+              staticClass: "card-img-top",
+              attrs: { src: art.image, alt: "Banner" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body", class: art.border }, [
+            _c("h5", { staticClass: "card-title" }, [
+              _vm._v(_vm._s(art.title))
+            ]),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "btn btn-link",
+                attrs: { href: art.codepen, target: "_blank" }
+              },
+              [
+                _c("i", { staticClass: "fab fa-codepen" }),
+                _vm._v("\n                    CodePen\n                ")
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "btn btn-link",
+                attrs: { href: art.github, target: "_blank" }
+              },
+              [
+                _c("i", { staticClass: "fab fa-github" }),
+                _vm._v("\n                    Github\n                ")
+              ]
+            ),
+            _vm._v(" "),
+            art.website
+              ? _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-link",
+                    attrs: { href: art.website, target: "_blank" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-globe" }),
+                    _vm._v("\n                    Website\n                ")
+                  ]
+                )
+              : _vm._e(),
+            _vm._v(" "),
+            art.design
+              ? _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-link",
+                    attrs: { href: art.design, target: "_blank" }
+                  },
+                  [
+                    _c("i", { staticClass: "fas fa-image" }),
+                    _vm._v("\n                    Design\n                ")
+                  ]
+                )
+              : _vm._e()
+          ])
+        ])
+      }),
+      0
+    )
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent (
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier, /* server only */
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options = typeof scriptExports === 'function'
+    ? scriptExports.options
+    : scriptExports
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) { // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () {
+        injectStyles.call(
+          this,
+          (options.functional ? this.parent : this).$root.$options.shadowRoot
+        )
+      }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functional component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection (h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing
+        ? [].concat(existing, hook)
+        : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
 
 /***/ }),
 
@@ -12575,504 +12881,22 @@ module.exports = g;
 /*!***********************!*\
   !*** ./src/js/app.js ***!
   \***********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/App */ "./src/js/components/App.vue");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
-var app = new Vue({
-  el: "#app",
-  data: {
-    arts: [{
-      title: "Responsive Laravel Logo",
-      image: "/img/laravel.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/MWeNjJg",
-      github: "https://github.com/purecss-co/laravel-logo",
-      website: "https://laravel.com/",
-      design: "",
-      border: "border-top"
-    }, {
-      title: "Responsive The Queen's Gambit",
-      image: "/img/queens-gambit.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/wvWLRpO",
-      github: "https://github.com/purecss-co/queens-gambit",
-      website: "",
-      design: "https://dribbble.com/shots/14571164-Queen-s-Gambit",
-      border: ""
-    }, {
-      title: "Responsive Chicken",
-      image: "/img/chicken.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/QWEXgrZ",
-      github: "https://github.com/purecss-co/chicken",
-      website: "",
-      design: "https://dribbble.com/shots/5259998-Chicken",
-      border: ""
-    }, {
-      title: "Responsive PS5 Logo",
-      image: "/img/ps5.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/ZEONdwE",
-      github: "https://github.com/purecss-co/ps5-logo",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive DigitalOcean Sammy the Shark",
-      image: "/img/sammy-the-shark.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/gOMJPxy",
-      github: "https://github.com/purecss-co/sammy-the-shark",
-      website: "https://www.digitalocean.com/",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive JomLaunch Logo",
-      image: "/img/jomlaunch.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/rNLbvZp",
-      github: "https://github.com/purecss-co/jomlaunch-logo",
-      website: "https://launch.jomweb.my/",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Sports Car",
-      image: "/img/sports-car.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/ZEQXXrx",
-      github: "https://github.com/purecss-co/sports-car",
-      website: "",
-      design: "https://dribbble.com/shots/3252634-Sports-Car",
-      border: ""
-    }, {
-      title: "Responsive Chris Coyier Pixel Avatar",
-      image: "/img/chris-coyier.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/RwraJRm",
-      github: "https://github.com/purecss-co/chris-coyier-pixel-avatar",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Tesla Logo",
-      image: "/img/tesla.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/MWKaQBZ",
-      github: "https://github.com/purecss-co/tesla-logo",
-      website: "https://www.tesla.com",
-      design: "",
-      border: "border-top"
-    }, {
-      title: "Responsive SpaceX Logo",
-      image: "/img/spacex.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/yLeYPyr",
-      github: "https://github.com/purecss-co/spacex-logo",
-      website: "https://www.spacex.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive My Pixel Avatar",
-      image: "/img/pixel-avatar.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/qBbBXxB",
-      github: "https://github.com/purecss-co/my-pixel-avatar",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive 3D Ball",
-      image: "/img/3d-ball.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/dyYeBgv",
-      github: "https://github.com/purecss-co/3d-ball",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Bear",
-      image: "/img/bear.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/rNOdRXM",
-      github: "https://github.com/purecss-co/bear",
-      website: "",
-      design: "https://dribbble.com/shots/11321693-Bear",
-      border: ""
-    }, {
-      title: "Responsive Hijab Girl Portrait",
-      image: "/img/hijab-girl.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/bGVYOjY",
-      github: "https://github.com/purecss-co/hijab-girl",
-      website: "",
-      design: "https://dribbble.com/shots/5950905-Veil-Logo",
-      border: "border-top"
-    }, {
-      title: "Responsive Lady in Blue Portrait",
-      image: "/img/lady-in-blue.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/zYvwemL",
-      github: "https://github.com/purecss-co/lady-in-blue",
-      website: "",
-      design: "https://dribbble.com/shots/11135126-Lady-In-Blue/",
-      border: "border-top"
-    }, {
-      title: "Responsive Mo Salah Poster",
-      image: "/img/mosalah.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/QWjLqqx",
-      github: "https://github.com/purecss-co/mo-salah-poster",
-      website: "",
-      design: "https://www.uplabs.com/posts/mohamed-salah-poster",
-      border: ""
-    }, {
-      title: "Responsive Dwayne Johnson (The Rock) Portrait",
-      image: "/img/the-rock.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/WqQPRm",
-      github: "https://github.com/purecss-co/purecss-dwayne-johnson",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Keanu Reeves (John Wick) Portrait",
-      image: "/img/john-wick.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/qzBLVj",
-      github: "https://github.com/purecss-co/purecss-keanu-reeves",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Gatsby Logo",
-      image: "/img/gatsby.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/KLOwdz",
-      github: "https://github.com/purecss-co/purecss-gatsby-logo",
-      website: "https://www.gatsbyjs.org",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Sandwich",
-      image: "/img/sandwich.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/byPLQK",
-      github: "https://github.com/purecss-co/purecss-sandwich",
-      website: "",
-      design: "https://dribbble.com/shots/5312830-Sandwich",
-      border: ""
-    }, {
-      title: "Responsive Letter M",
-      image: "/img/letter-m.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/OYqjRm",
-      github: "https://github.com/purecss-co/purecss-letter-m",
-      website: "",
-      design: "https://dribbble.com/shots/6315007-M-Logo",
-      border: ""
-    }, {
-      title: "Responsive Letter T",
-      image: "/img/letter-t.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/yWGwGx",
-      github: "https://github.com/purecss-co/purecss-letter-t",
-      website: "",
-      design: "https://dribbble.com/shots/6176376-T-Letter-Logo",
-      border: ""
-    }, {
-      title: "Responsive Space Helemt",
-      image: "/img/space-helmet.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/EzGmGR",
-      github: "https://github.com/purecss-co/purecss-space-helmet",
-      website: "",
-      design: "https://www.uplabs.com/posts/astrounut-space-helmet",
-      border: ""
-    }, {
-      title: "Responsive Netlify Logo",
-      image: "/img/netlify.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/PvyORQ",
-      github: "https://github.com/purecss-co/purecss-netlify-logo",
-      website: "https://www.netlify.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Unicorn Logo",
-      image: "/img/unicorn-logo.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/MdBeYg",
-      github: "https://github.com/purecss-co/purecss-unicorn-logo",
-      website: "",
-      design: "https://dribbble.com/shots/5774723-Unicorn-logo",
-      border: ""
-    }, {
-      title: "Responsive Chrome V8 Logo",
-      image: "/img/v8.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/KLRZqQ",
-      github: "https://github.com/purecss-co/purecss-chrome-v8-logo",
-      website: "https://v8.dev",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Bob The Minion",
-      image: "/img/minion.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/wXjpyB",
-      github: "https://github.com/purecss-co/purecss-bob-minion",
-      website: "",
-      design: "https://www.uplabs.com/posts/bob-minion",
-      border: ""
-    }, {
-      title: "Responsive Sketch Logo",
-      image: "/img/sketch.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/OEvEBz",
-      github: "https://github.com/purecss-co/purecss-sketch-logo",
-      website: "https://www.sketchapp.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Work Desk",
-      image: "/img/workdesk.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/GGQaGM",
-      github: "https://github.com/purecss-co/purecss-work-desk",
-      website: "",
-      design: "https://www.uplabs.com/posts/work_desk",
-      border: ""
-    }, {
-      title: "Responsive Discord Logo",
-      image: "/img/discord.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/VdyqOa",
-      github: "https://github.com/purecss-co/purecss-discord-logo",
-      website: "https://discordapp.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Angular Logo",
-      image: "/img/angular.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/zappyQ",
-      github: "https://github.com/purecss-co/purecss-angular-logo",
-      website: "https://angular.io",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Reddit Loader",
-      image: "/img/reddit-loader.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/OEOZVW",
-      github: "https://github.com/purecss-co/purecss-reddit-loader",
-      website: "https://www.reddit.com",
-      design: "",
-      border: "border-top"
-    }, {
-      title: "Responsive Reddit Logo",
-      image: "/img/reddit.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/bKYvpd",
-      github: "https://github.com/purecss-co/purecss-reddit-logo",
-      website: "https://www.reddit.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Unicorn",
-      image: "/img/unicorn.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/YvEpWE",
-      github: "https://github.com/purecss-co/purecss-unicorn",
-      website: "",
-      design: "https://dribbble.com/shots/1466843-Unicorn",
-      border: ""
-    }, {
-      title: "Responsive Wahdah Logo",
-      image: "/img/wahdah.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/bKrbRd",
-      github: "https://github.com/purecss-co/purecss-wahdah-logo",
-      website: "https://www.wahdah.my",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive DigitalOcean Logo",
-      image: "/img/digitalocean.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/YvVKaX",
-      github: "https://github.com/purecss-co/purecss-digitalocean-logo",
-      website: "https://www.digitalocean.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive WordPress Logo",
-      image: "/img/wordpress.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/MXJqWb",
-      github: "https://github.com/purecss-co/purecss-wordpress-logo",
-      website: "https://wordpress.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Iron Man 2 Arc Reactor",
-      image: "/img/arc-reactor-2.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/XYpjjV",
-      github: "https://github.com/purecss-co/purecss-ironman2-arcreactor",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Git Logo",
-      image: "/img/git.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/ERyQGm",
-      github: "https://github.com/purecss-co/purecss-git-logo",
-      website: "https://git-scm.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive GitLab Logo",
-      image: "/img/gitlab.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/VdaxqW",
-      github: "https://github.com/purecss-co/purecss-gitlab-logo",
-      website: "https://gitlab.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Avengers Logo",
-      image: "/img/avengers.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/RJrywp",
-      github: "https://github.com/purecss-co/purecss-avengers-logo",
-      website: "http://marvel.com/avengers",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Ubuntu Logo",
-      image: "/img/ubuntu.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/PaPMYE",
-      github: "https://github.com/purecss-co/purecss-ubuntu-logo",
-      website: "https://www.ubuntu.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Katsana Sticker",
-      image: "/img/katsana.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/NzqJWa",
-      github: "https://github.com/purecss-co/purecss-katsana-sticker",
-      website: "https://www.katsana.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Laman7 Logo",
-      image: "/img/laman7.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/wXBVzb",
-      github: "https://github.com/purecss-co/purecss-laman7-logo",
-      website: "https://laman7.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Shazam Listening Song",
-      image: "/img/shazam.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/zaxGeg",
-      github: "https://github.com/purecss-co/purecss-shazam-logo",
-      website: "https://www.shazam.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive OMG Hackers Logo",
-      image: "/img/omgh.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/PaYjbX",
-      github: "https://github.com/purecss-co/purecss-omgh-logo",
-      website: "https://omghackers.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive Amanz Logo",
-      image: "/img/amanz.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/yjWKWE",
-      github: "https://github.com/purecss-co/purecss-amanz-logo",
-      website: "https://amanz.my",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive JomParking Logo",
-      image: "/img/jomparking.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/rKNBdE",
-      github: "https://github.com/purecss-co/purecss-jomparking-logo",
-      website: "https://www.jomparking.com",
-      design: "",
-      border: ""
-    }, {
-      title: "SumberManusia Old Logo",
-      image: "/img/sm.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/KRLyrZ",
-      github: "https://github.com/purecss-co/purecss-sumbermanusia-logo",
-      website: "https://sumbermanusia.my",
-      design: "",
-      border: "border-top"
-    }, {
-      title: "Responsive Iron Man Arc Reactor",
-      image: "/img/arc-reactor.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/odVpmE",
-      github: "https://github.com/purecss-co/purecss-ironman-arcreactor",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive eSentral Logo",
-      image: "/img/esentral.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/odVGKr",
-      github: "https://github.com/purecss-co/purecss-esentral",
-      website: "https://www.e-sentral.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive ReactJS Logo",
-      image: "/img/reactjs.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/vjbOdE",
-      github: "https://github.com/purecss-co/purecss-reactjs-logo",
-      website: "https://reactjs.org",
-      design: "",
-      border: ""
-    }, {
-      title: "Firebase Logo",
-      image: "/img/firebase.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/NMoPLq",
-      github: "https://github.com/purecss-co/purecss-firebase-logo",
-      website: "https://firebase.google.com",
-      design: "",
-      border: ""
-    }, {
-      title: "Deadpool Logo",
-      image: "/img/deadpool.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/aGPKPg",
-      github: "https://github.com/purecss-co/purecss-deadpool-logo",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "The Flash Logo",
-      image: "/img/theflash.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/JveQYX",
-      github: "https://github.com/purecss-co/purecss-theflash-logo",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Responsive TensorFlow Logo",
-      image: "/img/tensorflow.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/qVBrrv",
-      github: "https://github.com/purecss-co/purecss-tensorflow-logo",
-      website: "https://www.tensorflow.org",
-      design: "",
-      border: "border-top"
-    }, {
-      title: "Responsive Runcloud Logo",
-      image: "/img/runcloud.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/aVoaYr",
-      github: "https://github.com/purecss-co/purecss-runcloud-logo",
-      website: "https://runcloud.io",
-      design: "",
-      border: ""
-    }, {
-      title: "iPhone 8 White Edition and Wireless Charging",
-      image: "/img/iphone8.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/BwgBLe",
-      github: "https://github.com/purecss-co/purecss-iphone-8",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "Pixel 2 XL White Edition",
-      image: "/img/pixel.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/rGRXKy",
-      github: "https://github.com/purecss-co/purecss-pixel2xl",
-      website: "",
-      design: "",
-      border: "border-top"
-    }, {
-      title: "Galaxy S8 Coral Blue Edition",
-      image: "/img/galaxys8.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/MELpGo",
-      github: "https://github.com/purecss-co/purecss-galaxy-s8",
-      website: "",
-      design: "",
-      border: ""
-    }, {
-      title: "iPhone X White Edition",
-      image: "/img/iphoneX.png",
-      codepen: "https://codepen.io/AsyrafHussin/pen/mBaBXm",
-      github: "https://github.com/purecss-co/purecss-iphone-x",
-      website: "",
-      design: "",
-      border: ""
-    }]
-  }
-}); // toggle nightmode
+
+Vue.config.productionTip = false;
+var app = new Vue(_objectSpread({}, _components_App__WEBPACK_IMPORTED_MODULE_0__["default"])); // toggle nightmode
 
 document.getElementById("nightmode").addEventListener("click", function () {
   document.body.classList.toggle("nightmode");
@@ -13081,6 +12905,86 @@ document.getElementById("nightmode").addEventListener("click", function () {
   moon.classList.toggle("fas");
   moon.classList.toggle("moon-white");
 });
+
+/***/ }),
+
+/***/ "./src/js/components/App.vue":
+/*!***********************************!*\
+  !*** ./src/js/components/App.vue ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _App_vue_vue_type_template_id_9c9d20f6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue?vue&type=template&id=9c9d20f6& */ "./src/js/components/App.vue?vue&type=template&id=9c9d20f6&");
+/* harmony import */ var _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue?vue&type=script&lang=js& */ "./src/js/components/App.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _App_vue_vue_type_template_id_9c9d20f6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _App_vue_vue_type_template_id_9c9d20f6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/js/components/App.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/js/components/App.vue?vue&type=script&lang=js&":
+/*!************************************************************!*\
+  !*** ./src/js/components/App.vue?vue&type=script&lang=js& ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./App.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/js/components/App.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/js/components/App.vue?vue&type=template&id=9c9d20f6&":
+/*!******************************************************************!*\
+  !*** ./src/js/components/App.vue?vue&type=template&id=9c9d20f6& ***!
+  \******************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_9c9d20f6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./App.vue?vue&type=template&id=9c9d20f6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/js/components/App.vue?vue&type=template&id=9c9d20f6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_9c9d20f6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_9c9d20f6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./src/js/components/arts.json":
+/*!*************************************!*\
+  !*** ./src/js/components/arts.json ***!
+  \*************************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"title\":\"Responsive Laravel Logo\",\"image\":\"/img/laravel.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/MWeNjJg\",\"github\":\"https://github.com/purecss-co/laravel-logo\",\"website\":\"https://laravel.com/\",\"design\":\"\",\"border\":\"border-top\"},{\"title\":\"Responsive The Queen's Gambit\",\"image\":\"/img/queens-gambit.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/wvWLRpO\",\"github\":\"https://github.com/purecss-co/queens-gambit\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/14571164-Queen-s-Gambit\",\"border\":\"\"},{\"title\":\"Responsive Chicken\",\"image\":\"/img/chicken.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/QWEXgrZ\",\"github\":\"https://github.com/purecss-co/chicken\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/5259998-Chicken\",\"border\":\"\"},{\"title\":\"Responsive PS5 Logo\",\"image\":\"/img/ps5.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/ZEONdwE\",\"github\":\"https://github.com/purecss-co/ps5-logo\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive DigitalOcean Sammy the Shark\",\"image\":\"/img/sammy-the-shark.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/gOMJPxy\",\"github\":\"https://github.com/purecss-co/sammy-the-shark\",\"website\":\"https://www.digitalocean.com/\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive JomLaunch Logo\",\"image\":\"/img/jomlaunch.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/rNLbvZp\",\"github\":\"https://github.com/purecss-co/jomlaunch-logo\",\"website\":\"https://launch.jomweb.my/\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Sports Car\",\"image\":\"/img/sports-car.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/ZEQXXrx\",\"github\":\"https://github.com/purecss-co/sports-car\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/3252634-Sports-Car\",\"border\":\"\"},{\"title\":\"Responsive Chris Coyier Pixel Avatar\",\"image\":\"/img/chris-coyier.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/RwraJRm\",\"github\":\"https://github.com/purecss-co/chris-coyier-pixel-avatar\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Tesla Logo\",\"image\":\"/img/tesla.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/MWKaQBZ\",\"github\":\"https://github.com/purecss-co/tesla-logo\",\"website\":\"https://www.tesla.com\",\"design\":\"\",\"border\":\"border-top\"},{\"title\":\"Responsive SpaceX Logo\",\"image\":\"/img/spacex.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/yLeYPyr\",\"github\":\"https://github.com/purecss-co/spacex-logo\",\"website\":\"https://www.spacex.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive My Pixel Avatar\",\"image\":\"/img/pixel-avatar.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/qBbBXxB\",\"github\":\"https://github.com/purecss-co/my-pixel-avatar\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive 3D Ball\",\"image\":\"/img/3d-ball.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/dyYeBgv\",\"github\":\"https://github.com/purecss-co/3d-ball\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Bear\",\"image\":\"/img/bear.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/rNOdRXM\",\"github\":\"https://github.com/purecss-co/bear\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/11321693-Bear\",\"border\":\"\"},{\"title\":\"Responsive Hijab Girl Portrait\",\"image\":\"/img/hijab-girl.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/bGVYOjY\",\"github\":\"https://github.com/purecss-co/hijab-girl\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/5950905-Veil-Logo\",\"border\":\"border-top\"},{\"title\":\"Responsive Lady in Blue Portrait\",\"image\":\"/img/lady-in-blue.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/zYvwemL\",\"github\":\"https://github.com/purecss-co/lady-in-blue\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/11135126-Lady-In-Blue/\",\"border\":\"border-top\"},{\"title\":\"Responsive Mo Salah Poster\",\"image\":\"/img/mosalah.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/QWjLqqx\",\"github\":\"https://github.com/purecss-co/mo-salah-poster\",\"website\":\"\",\"design\":\"https://www.uplabs.com/posts/mohamed-salah-poster\",\"border\":\"\"},{\"title\":\"Responsive Dwayne Johnson (The Rock) Portrait\",\"image\":\"/img/the-rock.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/WqQPRm\",\"github\":\"https://github.com/purecss-co/purecss-dwayne-johnson\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Keanu Reeves (John Wick) Portrait\",\"image\":\"/img/john-wick.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/qzBLVj\",\"github\":\"https://github.com/purecss-co/purecss-keanu-reeves\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Gatsby Logo\",\"image\":\"/img/gatsby.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/KLOwdz\",\"github\":\"https://github.com/purecss-co/purecss-gatsby-logo\",\"website\":\"https://www.gatsbyjs.org\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Sandwich\",\"image\":\"/img/sandwich.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/byPLQK\",\"github\":\"https://github.com/purecss-co/purecss-sandwich\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/5312830-Sandwich\",\"border\":\"\"},{\"title\":\"Responsive Letter M\",\"image\":\"/img/letter-m.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/OYqjRm\",\"github\":\"https://github.com/purecss-co/purecss-letter-m\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/6315007-M-Logo\",\"border\":\"\"},{\"title\":\"Responsive Letter T\",\"image\":\"/img/letter-t.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/yWGwGx\",\"github\":\"https://github.com/purecss-co/purecss-letter-t\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/6176376-T-Letter-Logo\",\"border\":\"\"},{\"title\":\"Responsive Space Helemt\",\"image\":\"/img/space-helmet.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/EzGmGR\",\"github\":\"https://github.com/purecss-co/purecss-space-helmet\",\"website\":\"\",\"design\":\"https://www.uplabs.com/posts/astrounut-space-helmet\",\"border\":\"\"},{\"title\":\"Responsive Netlify Logo\",\"image\":\"/img/netlify.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/PvyORQ\",\"github\":\"https://github.com/purecss-co/purecss-netlify-logo\",\"website\":\"https://www.netlify.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Unicorn Logo\",\"image\":\"/img/unicorn-logo.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/MdBeYg\",\"github\":\"https://github.com/purecss-co/purecss-unicorn-logo\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/5774723-Unicorn-logo\",\"border\":\"\"},{\"title\":\"Responsive Chrome V8 Logo\",\"image\":\"/img/v8.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/KLRZqQ\",\"github\":\"https://github.com/purecss-co/purecss-chrome-v8-logo\",\"website\":\"https://v8.dev\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Bob The Minion\",\"image\":\"/img/minion.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/wXjpyB\",\"github\":\"https://github.com/purecss-co/purecss-bob-minion\",\"website\":\"\",\"design\":\"https://www.uplabs.com/posts/bob-minion\",\"border\":\"\"},{\"title\":\"Responsive Sketch Logo\",\"image\":\"/img/sketch.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/OEvEBz\",\"github\":\"https://github.com/purecss-co/purecss-sketch-logo\",\"website\":\"https://www.sketchapp.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Work Desk\",\"image\":\"/img/workdesk.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/GGQaGM\",\"github\":\"https://github.com/purecss-co/purecss-work-desk\",\"website\":\"\",\"design\":\"https://www.uplabs.com/posts/work_desk\",\"border\":\"\"},{\"title\":\"Responsive Discord Logo\",\"image\":\"/img/discord.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/VdyqOa\",\"github\":\"https://github.com/purecss-co/purecss-discord-logo\",\"website\":\"https://discordapp.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Angular Logo\",\"image\":\"/img/angular.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/zappyQ\",\"github\":\"https://github.com/purecss-co/purecss-angular-logo\",\"website\":\"https://angular.io\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Reddit Loader\",\"image\":\"/img/reddit-loader.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/OEOZVW\",\"github\":\"https://github.com/purecss-co/purecss-reddit-loader\",\"website\":\"https://www.reddit.com\",\"design\":\"\",\"border\":\"border-top\"},{\"title\":\"Responsive Reddit Logo\",\"image\":\"/img/reddit.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/bKYvpd\",\"github\":\"https://github.com/purecss-co/purecss-reddit-logo\",\"website\":\"https://www.reddit.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Unicorn\",\"image\":\"/img/unicorn.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/YvEpWE\",\"github\":\"https://github.com/purecss-co/purecss-unicorn\",\"website\":\"\",\"design\":\"https://dribbble.com/shots/1466843-Unicorn\",\"border\":\"\"},{\"title\":\"Responsive Wahdah Logo\",\"image\":\"/img/wahdah.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/bKrbRd\",\"github\":\"https://github.com/purecss-co/purecss-wahdah-logo\",\"website\":\"https://www.wahdah.my\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive DigitalOcean Logo\",\"image\":\"/img/digitalocean.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/YvVKaX\",\"github\":\"https://github.com/purecss-co/purecss-digitalocean-logo\",\"website\":\"https://www.digitalocean.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive WordPress Logo\",\"image\":\"/img/wordpress.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/MXJqWb\",\"github\":\"https://github.com/purecss-co/purecss-wordpress-logo\",\"website\":\"https://wordpress.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Iron Man 2 Arc Reactor\",\"image\":\"/img/arc-reactor-2.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/XYpjjV\",\"github\":\"https://github.com/purecss-co/purecss-ironman2-arcreactor\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Git Logo\",\"image\":\"/img/git.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/ERyQGm\",\"github\":\"https://github.com/purecss-co/purecss-git-logo\",\"website\":\"https://git-scm.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive GitLab Logo\",\"image\":\"/img/gitlab.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/VdaxqW\",\"github\":\"https://github.com/purecss-co/purecss-gitlab-logo\",\"website\":\"https://gitlab.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Avengers Logo\",\"image\":\"/img/avengers.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/RJrywp\",\"github\":\"https://github.com/purecss-co/purecss-avengers-logo\",\"website\":\"http://marvel.com/avengers\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Ubuntu Logo\",\"image\":\"/img/ubuntu.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/PaPMYE\",\"github\":\"https://github.com/purecss-co/purecss-ubuntu-logo\",\"website\":\"https://www.ubuntu.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Katsana Sticker\",\"image\":\"/img/katsana.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/NzqJWa\",\"github\":\"https://github.com/purecss-co/purecss-katsana-sticker\",\"website\":\"https://www.katsana.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Laman7 Logo\",\"image\":\"/img/laman7.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/wXBVzb\",\"github\":\"https://github.com/purecss-co/purecss-laman7-logo\",\"website\":\"https://laman7.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Shazam Listening Song\",\"image\":\"/img/shazam.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/zaxGeg\",\"github\":\"https://github.com/purecss-co/purecss-shazam-logo\",\"website\":\"https://www.shazam.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive OMG Hackers Logo\",\"image\":\"/img/omgh.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/PaYjbX\",\"github\":\"https://github.com/purecss-co/purecss-omgh-logo\",\"website\":\"https://omghackers.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive Amanz Logo\",\"image\":\"/img/amanz.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/yjWKWE\",\"github\":\"https://github.com/purecss-co/purecss-amanz-logo\",\"website\":\"https://amanz.my\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive JomParking Logo\",\"image\":\"/img/jomparking.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/rKNBdE\",\"github\":\"https://github.com/purecss-co/purecss-jomparking-logo\",\"website\":\"https://www.jomparking.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"SumberManusia Old Logo\",\"image\":\"/img/sm.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/KRLyrZ\",\"github\":\"https://github.com/purecss-co/purecss-sumbermanusia-logo\",\"website\":\"https://sumbermanusia.my\",\"design\":\"\",\"border\":\"border-top\"},{\"title\":\"Responsive Iron Man Arc Reactor\",\"image\":\"/img/arc-reactor.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/odVpmE\",\"github\":\"https://github.com/purecss-co/purecss-ironman-arcreactor\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive eSentral Logo\",\"image\":\"/img/esentral.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/odVGKr\",\"github\":\"https://github.com/purecss-co/purecss-esentral\",\"website\":\"https://www.e-sentral.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive ReactJS Logo\",\"image\":\"/img/reactjs.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/vjbOdE\",\"github\":\"https://github.com/purecss-co/purecss-reactjs-logo\",\"website\":\"https://reactjs.org\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Firebase Logo\",\"image\":\"/img/firebase.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/NMoPLq\",\"github\":\"https://github.com/purecss-co/purecss-firebase-logo\",\"website\":\"https://firebase.google.com\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Deadpool Logo\",\"image\":\"/img/deadpool.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/aGPKPg\",\"github\":\"https://github.com/purecss-co/purecss-deadpool-logo\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"The Flash Logo\",\"image\":\"/img/theflash.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/JveQYX\",\"github\":\"https://github.com/purecss-co/purecss-theflash-logo\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Responsive TensorFlow Logo\",\"image\":\"/img/tensorflow.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/qVBrrv\",\"github\":\"https://github.com/purecss-co/purecss-tensorflow-logo\",\"website\":\"https://www.tensorflow.org\",\"design\":\"\",\"border\":\"border-top\"},{\"title\":\"Responsive Runcloud Logo\",\"image\":\"/img/runcloud.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/aVoaYr\",\"github\":\"https://github.com/purecss-co/purecss-runcloud-logo\",\"website\":\"https://runcloud.io\",\"design\":\"\",\"border\":\"\"},{\"title\":\"iPhone 8 White Edition and Wireless Charging\",\"image\":\"/img/iphone8.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/BwgBLe\",\"github\":\"https://github.com/purecss-co/purecss-iphone-8\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"Pixel 2 XL White Edition\",\"image\":\"/img/pixel.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/rGRXKy\",\"github\":\"https://github.com/purecss-co/purecss-pixel2xl\",\"website\":\"\",\"design\":\"\",\"border\":\"border-top\"},{\"title\":\"Galaxy S8 Coral Blue Edition\",\"image\":\"/img/galaxys8.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/MELpGo\",\"github\":\"https://github.com/purecss-co/purecss-galaxy-s8\",\"website\":\"\",\"design\":\"\",\"border\":\"\"},{\"title\":\"iPhone X White Edition\",\"image\":\"/img/iphoneX.png\",\"codepen\":\"https://codepen.io/AsyrafHussin/pen/mBaBXm\",\"github\":\"https://github.com/purecss-co/purecss-iphone-x\",\"website\":\"\",\"design\":\"\",\"border\":\"\"}]");
 
 /***/ }),
 
