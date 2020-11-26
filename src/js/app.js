@@ -9,10 +9,26 @@ const app = new Vue({
 });
 
 // toggle nightmode
-document.getElementById("nightmode").addEventListener("click", function() {
+function toggleNightMode() {
     document.body.classList.toggle("nightmode");
-    var moon = document.getElementById("moon-icon");
+    const moon = document.getElementById("moon-icon");
     moon.classList.toggle("far");
     moon.classList.toggle("fas");
     moon.classList.toggle("moon-white");
+}
+
+// check if set nightmode
+document.addEventListener("DOMContentLoaded", function(event) {
+    const toggle = localStorage.getItem("toggled");
+    if (toggle == "nightmode") {
+        toggleNightMode();
+    }
+});
+
+// handle nightmode button
+document.getElementById("nightmode").addEventListener("click", function() {
+    const toggle = localStorage.getItem("toggled");
+    localStorage.setItem("toggled", toggle == "nightmode" ? "" : "nightmode");
+
+    toggleNightMode();
 });

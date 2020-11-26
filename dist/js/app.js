@@ -12898,12 +12898,27 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 Vue.config.productionTip = false;
 var app = new Vue(_objectSpread({}, _components_App__WEBPACK_IMPORTED_MODULE_0__["default"])); // toggle nightmode
 
-document.getElementById("nightmode").addEventListener("click", function () {
+function toggleNightMode() {
   document.body.classList.toggle("nightmode");
   var moon = document.getElementById("moon-icon");
   moon.classList.toggle("far");
   moon.classList.toggle("fas");
   moon.classList.toggle("moon-white");
+} // check if set nightmode
+
+
+document.addEventListener("DOMContentLoaded", function (event) {
+  var toggle = localStorage.getItem("toggled");
+
+  if (toggle == "nightmode") {
+    toggleNightMode();
+  }
+}); // handle nightmode button
+
+document.getElementById("nightmode").addEventListener("click", function () {
+  var toggle = localStorage.getItem("toggled");
+  localStorage.setItem("toggled", toggle == "nightmode" ? "" : "nightmode");
+  toggleNightMode();
 });
 
 /***/ }),
