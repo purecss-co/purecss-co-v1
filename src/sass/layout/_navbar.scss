@@ -1,43 +1,68 @@
-.navbar{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: white;
-  border-bottom: 1px solid rgba(0,0,0,.125);
-  transition: all 250ms ease-out;
-  // box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    transition: all 250ms ease-out;
+    // box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 
-  .navbar-brand{
-    .navbar-title{
-      padding-top: 20px !important;
-      color: $main-color;
-      font-weight: 700;
-      font-size: 24px;
+    .navbar-brand {
+        .navbar-title {
+            padding-top: 20px !important;
+            color: $main-color;
+            font-weight: 700;
+            font-size: 24px;
 
-      &:hover{
-        text-decoration: none;
-      }
+            @include breakpoint(mobile) {
+                font-size: 20px;
+            }
 
-      span{
-        font-weight: 400;
-      }
+            &:hover {
+                text-decoration: none;
+            }
+
+            span {
+                font-weight: 400;
+            }
+        }
+
+        > span {
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 6px;
+            font-weight: 300;
+            font-size: 16px;
+            color: $main-color;
+
+            @include breakpoint(mobile) {
+                margin-top: 4px;
+            }
+        }
+        > .btn-small {
+            position: absolute;
+            top: 6px;
+            margin-left: 40px;
+
+            @include breakpoint(mobile) {
+                top: 4px;
+            }
+        }
     }
 
-    > span{
-      position: absolute;
-      margin-left: 10px;
-      margin-top: 6px;
-      font-weight: 300;
-      font-size: 16px;
-      color: $main-color;
-    }
-    > .btn-small{
-      position: absolute;
-      top: 6px;
-      margin-left: 40px;
-    }
-  }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
 
-  .moon-white{
-    color: white;
-  }
+        .nav-item {
+            margin-left: 20px;
+
+            @include breakpoint(mobile) {
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .moon-white {
+        color: white;
+    }
 }

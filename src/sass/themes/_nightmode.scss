@@ -1,70 +1,74 @@
-.nightmode{
-  background: #191919;
-  .navbar{
-    background: black !important;
+.nightmode {
+    background: #191919;
+    .navbar {
+        background: black !important;
 
-    .navbar-brand{
-      .navbar-title{
-        color: white !important;
-      }
+        .navbar-brand {
+            .navbar-title {
+                color: white !important;
+            }
 
-      > span{
-        color: white !important;
-      }
+            > span {
+                color: white !important;
+            }
 
-      > .btn-small{
-        background: #343436;
-        color: white;
-      }
-    }
-  }
+            > .btn-small {
+                background: #343436;
+                color: white;
+            }
+        }
 
-  .card-custom{
-    border: 1px solid #32333a;
-    background: #32333a;
-    // border-radius: 6px;
-
-    .card-body{
-      color: white;
-      .card-title{
-        color: white;
-      }
-
-      hr{
-        // display: block;
-        background-color: #40434c;
-        height: 1px;
-        border: 0;
-      }
-
-      .btn-link{
-        color: #a6a9af;
-      }
-
-      .btn-white{
-        background: #343436;
-        color: white;
-      }
-    }
-  }
-
-  .footer{
-    background: #111111;
-
-    .title{
-      color: white;
+        .fa-github {
+            color: white;
+        }
     }
 
-    .title-sub{
-      color: #7d7d7d;
+    .card-custom {
+        border: 1px solid #32333a;
+        background: #32333a;
+        // border-radius: 6px;
+
+        .card-body {
+            color: white;
+            .card-title {
+                color: white;
+            }
+
+            hr {
+                // display: block;
+                background-color: #40434c;
+                height: 1px;
+                border: 0;
+            }
+
+            .btn-link {
+                color: #a6a9af;
+            }
+
+            .btn-white {
+                background: #343436;
+                color: white;
+            }
+        }
     }
 
-    .title-sharing{
-      color: #7d7d7d;
-    }
+    .footer {
+        background: #111111;
 
-    .fab{
-      color: white;
+        .title {
+            color: white;
+        }
+
+        .title-sub {
+            color: #7d7d7d;
+        }
+
+        .title-sharing {
+            color: #7d7d7d;
+        }
+
+        .fab {
+            color: white;
+        }
     }
-  }
 }
