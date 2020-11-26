@@ -6,7 +6,7 @@ The source code of https://purecss.co
 
 ```bash
 # Clone the repo
-https://github.com/purecss-co/purecss-co.git
+git clone https://github.com/purecss-co/purecss-co.git
 
 # Navigate to clonned folder
 cd purecss-co
@@ -26,3 +26,7 @@ npm run watch
 Click this button to deploy the app to the DigitalOcean App Platform. You need a DigitalOcean account. If you don't already have one, you can sign up at https://cloud.digitalocean.com/registrations/new
 
 [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/purecss-co/purecss-co/tree/master)
+
+## Contributing
+
+If you spot any errors, typos or missing information, please submit a pull request.
