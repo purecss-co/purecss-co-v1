@@ -1,0 +1,90 @@
+<extends src="master.html">
+    <block name="content">
+        <div>
+            <div class="content">
+                <div class="container">
+                    <div class="row-grid" id="app">
+                        <div class="card-custom" v-for="art in arts">
+                            <div class="card-img-container">
+                                <img class="card-img-top" :src="art.image" alt="Banner" />
+                            </div>
+                            <div class="card-body" :class="art.border">
+                                <h5 class="card-title">{{ art.title }}</h5>
+                                <!-- <hr> -->
+                                <a :href="art.codepen" class="btn btn-link" target="_blank">
+                                    <i class="fab fa-codepen"></i>
+                                    CodePen
+                                </a>
+                                <a :href="art.github" class="btn btn-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Github
+                                </a>
+                                <a :href="art.website" v-if="art.website" class="btn btn-link" target="_blank">
+                                    <i class="fas fa-globe"></i>
+                                    Website
+                                </a>
+                                <a :href="art.design" v-if="art.design" class="btn btn-link" target="_blank">
+                                    <i class="fas fa-image"></i>
+                                    Design
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+
+                <hr />
+                <br />
+                <div class="container">
+                    <div class="row-grid-question">
+                        <div class="card-custom card-white">
+                            <div class="card-body">
+                                <p class="ask-title">Wanna try basic PureCSS Template?</p>
+                                <p class="ask-sub">Basic Template based on SCSS</p>
+                                <div align="center">
+                                    <a href="https://github.com/AsyrafHussin/purecss-template" target="_blank" class="btn btn-link">
+                                        <i class="fab fa-github"></i>
+                                        Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-custom card-blue">
+                            <div class="card-body">
+                                <p class="ask-title">
+                                    Do you have any
+                                    <span>PureCSS</span>
+                                    request?
+                                </p>
+                                <p class="ask-sub">I'll try to realise your dreams</p>
+                                <div align="center">
+                                    <a href="https://twitter.com/asyrafhussin4" target="_blank" class="btn btn-white">
+                                        <i class="fab fa-twitter"></i>
+                                        Ping me on Twitter
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-custom card-white">
+                            <div class="card-body">
+                                <p class="ask-title">Are you looking for Frontend Developer?</p>
+                                <p class="ask-sub">You can find me via</p>
+                                <div align="center">
+                                    <a href="mailto:asyrafhussin4@gmail.com" class="btn btn-link">
+                                        <i class="fas fa-envelope"></i>
+                                        asyrafhussin4@gmail.com
+                                    </a>
+                                    <a href="http://wasapp.me/60139008835" target="_blank" class="btn btn-link">
+                                        <i class="fab fa-whatsapp"></i>
+                                        +6013-9008835
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+    </block>
+</extends>
