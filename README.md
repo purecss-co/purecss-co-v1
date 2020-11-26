@@ -1,6 +1,6 @@
 # PureCSS.co
 
-The source code of [https://purecss.co](https://purecss.co)
+The source code of https://purecss.co
 
 ## Getting Started
 
@@ -23,6 +23,6 @@ npm run watch
 
 ## Deploying the App
 
-Click this button to deploy the app to the DigitalOcean App Platform.
+Click this button to deploy the app to the DigitalOcean App Platform. You need a DigitalOcean account. If you don't already have one, you can sign up at https://cloud.digitalocean.com/registrations/new
 
 [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/purecss-co/purecss-co/tree/master)
