@@ -19,6 +19,8 @@ npm run serve
 
 # Watch for auto compile on http://127.0.0.1:3000
 npm run watch
+
+# now you can edit the file inside src folder
 ```
 
 ## Deploying the App
