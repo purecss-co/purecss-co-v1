@@ -1,7 +1,9 @@
 .nightmode {
     background: #191919;
+
     .navbar {
         background: black !important;
+        border-bottom: 0 !important;
 
         .navbar-brand {
             .navbar-title {
@@ -23,10 +25,19 @@
         }
     }
 
+    .form-control {
+        background: #32333a;
+        border-color: black;
+        color: white;
+    }
+
     .card-custom {
         border: 1px solid #32333a;
         background: #32333a;
-        // border-radius: 6px;
+
+        .card-img-top {
+            border-color: transparent;
+        }
 
         .card-body {
             color: white;
@@ -35,7 +46,6 @@
             }
 
             hr {
-                // display: block;
                 background-color: #40434c;
                 height: 1px;
                 border: 0;
