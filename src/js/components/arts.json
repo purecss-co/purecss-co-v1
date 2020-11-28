@@ -1,5 +1,21 @@
 [
     {
+        "title": "Responsive Ruby on Rails Logo",
+        "image": "/img/rails.png",
+        "codepen": "https://codepen.io/AsyrafHussin/pen/jOMEqMR",
+        "github": "https://github.com/purecss-co/rails-logo",
+        "website": "https://rubyonrails.org/",
+        "design": ""
+    },
+    {
+        "title": "Responsive PHP 8 Logo",
+        "image": "/img/php-8.png",
+        "codepen": "https://codepen.io/AsyrafHussin/pen/GRjRdqr",
+        "github": "https://github.com/purecss-co/php-8-logo",
+        "website": "https://www.php.net/releases/8.0/en.php",
+        "design": ""
+    },
+    {
         "title": "Responsive Laravel Logo",
         "image": "/img/laravel.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/MWeNjJg",
