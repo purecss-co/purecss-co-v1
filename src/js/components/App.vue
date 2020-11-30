@@ -1,6 +1,9 @@
 <template>
     <div>
-        <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+            </div>
             <input type="text" v-model="search" class="form-control" placeholder="Quick search for title. eg: DigitalOcean" />
         </div>
         <div class="row-grid">
