@@ -4,7 +4,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fas fa-search"></i></span>
             </div>
-            <input type="text" v-model="search" class="form-control" placeholder="Quick search for title. eg: DigitalOcean" />
+            <input type="text" v-model="search" class="form-control form-search" placeholder="Quick search for title. eg: DigitalOcean" />
         </div>
         <div class="row-grid">
             <div class="card-custom" v-for="art in artsFilterList" :key="art.codepen">

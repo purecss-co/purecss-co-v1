@@ -3,9 +3,25 @@
 
     &:focus {
         box-shadow: none;
+        border-color: #007bff;
     }
+}
+
+.input-group {
+    &:focus-within .input-group-text {
+        border-color: #007bff;
+    }
+}
+
+.input-group-prepend {
+    border: 0;
 }
 
 .input-group-text {
     background: white;
+    padding-right: 0;
+}
+
+.form-search {
+    border-left: 0;
 }

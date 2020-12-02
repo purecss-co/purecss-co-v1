@@ -25,6 +25,12 @@
         }
     }
 
+    .input-group {
+        &:focus-within .input-group-text {
+            border-color: black;
+        }
+    }
+
     .input-group-text {
         background: #32333a;
         border-color: black;
