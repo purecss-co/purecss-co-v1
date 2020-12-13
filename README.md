@@ -33,3 +33,7 @@ Click this button to deploy the app to the DigitalOcean App Platform. You need a
 ## Contributing
 
 If you spot any errors, typos or missing information, please submit a pull request.
+
+## License
+
+MIT. See [LICENSE](LICENSE) for more details.
