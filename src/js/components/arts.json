@@ -1,5 +1,13 @@
 [
     {
+        "title": "Responsive 2021",
+        "image": "/img/2021.png",
+        "codepen": "https://codepen.io/AsyrafHussin/pen/GRjQzMz",
+        "github": "https://github.com/purecss-co/2021",
+        "website": "",
+        "design": "https://dribbble.com/shots/14829754-2021"
+    },
+    {
         "title": "Responsive Ruby on Rails Logo",
         "image": "/img/rails.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/jOMEqMR",
