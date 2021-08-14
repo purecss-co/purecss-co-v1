@@ -1,5 +1,13 @@
 [
     {
+        "title": "Responsive PancakeSwap Logo",
+        "image": "/img/pancakeswap.png",
+        "codepen": "https://codepen.io/AsyrafHussin/pen/wvdZwrJ",
+        "github": "https://github.com/purecss-co/pancakeswap-logo",
+        "website": "https://pancakeswap.finance",
+        "design": ""
+    },
+    {
         "title": "Responsive Charlie Chaplin",
         "image": "/img/charlie-chaplin.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/mdOdyKo",
