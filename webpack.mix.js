@@ -33,6 +33,7 @@ mix.setPublicPath("dist")
         },
     })
     .js("src/js/app.js", "dist/js")
+    .vue({ version: 2 })
     .sass("src/sass/app.scss", "dist/css")
     .options({
         postCss: [require("autoprefixer"), require("cssnano")],
@@ -47,7 +48,7 @@ mix.setPublicPath("dist")
     .version();
 
 mix.extend("addWebpackLoaders", (webpackConfig, loaderRules) => {
-    loaderRules.forEach(loaderRule => {
+    loaderRules.forEach((loaderRule) => {
         webpackConfig.module.rules.push(loaderRule);
     });
 });

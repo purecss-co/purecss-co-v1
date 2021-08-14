@@ -1,6 +1,6 @@
-window.Vue = require("vue");
+import Vue from "vue";
 
-import App from "./components/App";
+import App from "./components/App.vue";
 
 Vue.config.productionTip = false;
 
@@ -18,7 +18,7 @@ function toggleNightMode() {
 }
 
 // check if set nightmode
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function (event) {
     const toggle = localStorage.getItem("toggled");
     if (toggle == "nightmode") {
         toggleNightMode();
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 // handle nightmode button
-document.getElementById("nightmode").addEventListener("click", function() {
+document.getElementById("nightmode").addEventListener("click", function () {
     const toggle = localStorage.getItem("toggled");
     localStorage.setItem("toggled", toggle == "nightmode" ? "" : "nightmode");
 
