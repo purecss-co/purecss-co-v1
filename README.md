@@ -6,7 +6,7 @@ The source code of https://purecss.co
 
 ```bash
 # Clone the repo
-git clone https://github.com/purecss-co/purecss-co.git
+git clone git@github.com:purecss-co/purecss-co.git
 
 # Navigate to clonned folder
 cd purecss-co
