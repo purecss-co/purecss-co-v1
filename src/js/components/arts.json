@@ -1,5 +1,13 @@
 [
     {
+        "title": "Responsive Tailwind CSS Logo",
+        "image": "/img/tailwindcss.png",
+        "codepen": "https://codepen.io/AsyrafHussin/pen/gORadZO",
+        "github": "https://github.com/purecss-co/tailwindcss-logo",
+        "website": "https://tailwindcss.com/",
+        "design": ""
+    },
+    {
         "title": "Responsive PancakeSwap Logo",
         "image": "/img/pancakeswap.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/wvdZwrJ",
