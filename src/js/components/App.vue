@@ -9,7 +9,7 @@
         <div class="row-grid">
             <div class="card-custom" v-for="art in artsFilterList" :key="art.codepen">
                 <div class="card-img-container">
-                    <img class="card-img-top" :src="art.image" alt="Banner" />
+                    <img class="card-img-top" :src="art.image" alt="Banner" loading="lazy" />
                 </div>
                 <div class="card-body" :class="art.border">
                     <h5 class="card-title">{{ art.title }}</h5>
@@ -50,11 +50,11 @@ export default {
 
     computed: {
         artsFilterList() {
-            return this.arts.filter(art => {
+            return this.arts.filter((art) => {
                 return this.search
                     .toLowerCase()
                     .split(" ")
-                    .every(v => art.title.toLowerCase().includes(v));
+                    .every((v) => art.title.toLowerCase().includes(v));
             });
         },
     },
