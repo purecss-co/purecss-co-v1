@@ -43,6 +43,14 @@
             &:hover {
                 text-decoration: none;
             }
+
+            &:active,
+            &:focus {
+                text-decoration: none;
+                outline: none;
+                border: none;
+                box-shadow: none;
+            }
         }
     }
 
