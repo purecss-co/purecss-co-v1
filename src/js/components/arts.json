@@ -1,5 +1,13 @@
 [
     {
+        "title": "Responsive Fashion Woman",
+        "image": "/img/fashion-woman.png",
+        "codepen": "https://codepen.io/AsyrafHussin/pen/jOZaNVE",
+        "github": "https://github.com/purecss-co/fashion-woman",
+        "website": "",
+        "design": "https://www.behance.net/gallery/113097137/Fashion-woman-in-style-Pop-art"
+    },
+    {
         "title": "Responsive The Queen's Gambit",
         "image": "/img/queensgambit.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/YzeZKJZ",
