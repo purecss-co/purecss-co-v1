@@ -1,6 +1,6 @@
 [
     {
-        "title": "Responsive The Looked",
+        "title": "The Looked",
         "image": "/img/the-looked.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/wvyyNjY",
         "github": "https://github.com/purecss-co/the-looked",
@@ -8,7 +8,7 @@
         "design": "https://www.behance.net/gallery/45318637/Women-Uncovered"
     },
     {
-        "title": "Responsive Red Hat Lady",
+        "title": "Red Hat Lady",
         "image": "/img/redhatlady.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/PoQEjvz",
         "github": "https://github.com/purecss-co/red-hat-lady",
@@ -16,7 +16,7 @@
         "design": "https://www.behance.net/gallery/40978369/illustration"
     },
     {
-        "title": "Responsive Fashion Woman",
+        "title": "Fashion Woman",
         "image": "/img/fashion-woman.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/jOZaNVE",
         "github": "https://github.com/purecss-co/fashion-woman",
@@ -24,7 +24,7 @@
         "design": "https://www.behance.net/gallery/113097137/Fashion-woman-in-style-Pop-art"
     },
     {
-        "title": "Responsive The Queen's Gambit",
+        "title": "The Queen's Gambit",
         "image": "/img/queensgambit.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/YzeZKJZ",
         "github": "https://github.com/purecss-co/the-queens-gambit",
@@ -32,7 +32,7 @@
         "design": "https://dribbble.com/shots/14575504-Queens-Gambit"
     },
     {
-        "title": "Responsive BNB Chain Logo",
+        "title": "BNB Chain Logo",
         "image": "/img/bnbchain.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/ZEvPdPg",
         "github": "https://github.com/purecss-co/bnb-chain-logo",
@@ -40,7 +40,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Adobe Logo",
+        "title": "Adobe Logo",
         "image": "/img/adobe.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/ZEypoZY",
         "github": "https://github.com/purecss-co/adobe-logo",
@@ -48,7 +48,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Tailwind CSS Logo",
+        "title": "Tailwind CSS Logo",
         "image": "/img/tailwindcss.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/gORadZO",
         "github": "https://github.com/purecss-co/tailwindcss-logo",
@@ -56,7 +56,7 @@
         "design": ""
     },
     {
-        "title": "Responsive PancakeSwap Logo",
+        "title": "PancakeSwap Logo",
         "image": "/img/pancakeswap.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/wvdZwrJ",
         "github": "https://github.com/purecss-co/pancakeswap-logo",
@@ -64,7 +64,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Charlie Chaplin",
+        "title": "Charlie Chaplin",
         "image": "/img/charlie-chaplin.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/mdOdyKo",
         "github": "https://github.com/purecss-co/charlie-chaplin",
@@ -72,7 +72,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Elon Musk",
+        "title": "Elon Musk",
         "image": "/img/elon-musk.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/mdroBzv",
         "github": "https://github.com/purecss-co/elon-musk",
@@ -80,7 +80,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Lynn Fisher Avatar",
+        "title": "Lynn Fisher Avatar",
         "image": "/img/lynnfisher.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/VwKBQVb",
         "github": "https://github.com/purecss-co/lynn-fisher-avatar",
@@ -88,7 +88,7 @@
         "design": ""
     },
     {
-        "title": "Responsive 2021",
+        "title": "2021",
         "image": "/img/2021.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/GRjQzMz",
         "github": "https://github.com/purecss-co/2021",
@@ -96,7 +96,7 @@
         "design": "https://dribbble.com/shots/14829754-2021"
     },
     {
-        "title": "Responsive Ruby on Rails Logo",
+        "title": "Ruby on Rails Logo",
         "image": "/img/rails.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/jOMEqMR",
         "github": "https://github.com/purecss-co/rails-logo",
@@ -104,7 +104,7 @@
         "design": ""
     },
     {
-        "title": "Responsive PHP 8 Logo",
+        "title": "PHP 8 Logo",
         "image": "/img/php-8.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/GRjRdqr",
         "github": "https://github.com/purecss-co/php-8-logo",
@@ -112,7 +112,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Laravel Logo",
+        "title": "Laravel Logo",
         "image": "/img/laravel.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/MWeNjJg",
         "github": "https://github.com/purecss-co/laravel-logo",
@@ -120,7 +120,7 @@
         "design": ""
     },
     {
-        "title": "Responsive The Queen's Gambit",
+        "title": "The Queen's Gambit",
         "image": "/img/queens-gambit.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/wvWLRpO",
         "github": "https://github.com/purecss-co/queens-gambit",
@@ -128,7 +128,7 @@
         "design": "https://dribbble.com/shots/14571164-Queen-s-Gambit"
     },
     {
-        "title": "Responsive Chicken",
+        "title": "Chicken",
         "image": "/img/chicken.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/QWEXgrZ",
         "github": "https://github.com/purecss-co/chicken",
@@ -136,7 +136,7 @@
         "design": "https://dribbble.com/shots/5259998-Chicken"
     },
     {
-        "title": "Responsive PS5 Logo",
+        "title": "PS5 Logo",
         "image": "/img/ps5.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/ZEONdwE",
         "github": "https://github.com/purecss-co/ps5-logo",
@@ -144,7 +144,7 @@
         "design": ""
     },
     {
-        "title": "Responsive DigitalOcean Sammy the Shark",
+        "title": "DigitalOcean Sammy the Shark",
         "image": "/img/sammy-the-shark.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/gOMJPxy",
         "github": "https://github.com/purecss-co/sammy-the-shark",
@@ -152,7 +152,7 @@
         "design": ""
     },
     {
-        "title": "Responsive JomLaunch Logo",
+        "title": "JomLaunch Logo",
         "image": "/img/jomlaunch.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/rNLbvZp",
         "github": "https://github.com/purecss-co/jomlaunch-logo",
@@ -160,7 +160,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Sports Car",
+        "title": "Sports Car",
         "image": "/img/sports-car.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/ZEQXXrx",
         "github": "https://github.com/purecss-co/sports-car",
@@ -168,7 +168,7 @@
         "design": "https://dribbble.com/shots/3252634-Sports-Car"
     },
     {
-        "title": "Responsive Chris Coyier Pixel Avatar",
+        "title": "Chris Coyier Pixel Avatar",
         "image": "/img/chris-coyier.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/RwraJRm",
         "github": "https://github.com/purecss-co/chris-coyier-pixel-avatar",
@@ -176,7 +176,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Tesla Logo",
+        "title": "Tesla Logo",
         "image": "/img/tesla.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/MWKaQBZ",
         "github": "https://github.com/purecss-co/tesla-logo",
@@ -184,7 +184,7 @@
         "design": ""
     },
     {
-        "title": "Responsive SpaceX Logo",
+        "title": "SpaceX Logo",
         "image": "/img/spacex.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/yLeYPyr",
         "github": "https://github.com/purecss-co/spacex-logo",
@@ -192,7 +192,7 @@
         "design": ""
     },
     {
-        "title": "Responsive My Pixel Avatar",
+        "title": "My Pixel Avatar",
         "image": "/img/pixel-avatar.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/qBbBXxB",
         "github": "https://github.com/purecss-co/my-pixel-avatar",
@@ -200,7 +200,7 @@
         "design": ""
     },
     {
-        "title": "Responsive 3D Ball",
+        "title": "3D Ball",
         "image": "/img/3d-ball.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/dyYeBgv",
         "github": "https://github.com/purecss-co/3d-ball",
@@ -208,7 +208,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Bear",
+        "title": "Bear",
         "image": "/img/bear.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/rNOdRXM",
         "github": "https://github.com/purecss-co/bear",
@@ -216,7 +216,7 @@
         "design": "https://dribbble.com/shots/11321693-Bear"
     },
     {
-        "title": "Responsive Hijab Girl Portrait",
+        "title": "Hijab Girl Portrait",
         "image": "/img/hijab-girl.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/bGVYOjY",
         "github": "https://github.com/purecss-co/hijab-girl",
@@ -224,7 +224,7 @@
         "design": "https://dribbble.com/shots/5950905-Veil-Logo"
     },
     {
-        "title": "Responsive Lady in Blue Portrait",
+        "title": "Lady in Blue Portrait",
         "image": "/img/lady-in-blue.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/zYvwemL",
         "github": "https://github.com/purecss-co/lady-in-blue",
@@ -232,7 +232,7 @@
         "design": "https://dribbble.com/shots/11135126-Lady-In-Blue/"
     },
     {
-        "title": "Responsive Mo Salah Poster",
+        "title": "Mo Salah Poster",
         "image": "/img/mosalah.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/QWjLqqx",
         "github": "https://github.com/purecss-co/mo-salah-poster",
@@ -240,7 +240,7 @@
         "design": "https://www.uplabs.com/posts/mohamed-salah-poster"
     },
     {
-        "title": "Responsive Dwayne Johnson (The Rock) Portrait",
+        "title": "Dwayne Johnson (The Rock) Portrait",
         "image": "/img/the-rock.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/WqQPRm",
         "github": "https://github.com/purecss-co/purecss-dwayne-johnson",
@@ -248,7 +248,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Keanu Reeves (John Wick) Portrait",
+        "title": "Keanu Reeves (John Wick) Portrait",
         "image": "/img/john-wick.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/qzBLVj",
         "github": "https://github.com/purecss-co/purecss-keanu-reeves",
@@ -256,7 +256,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Gatsby Logo",
+        "title": "Gatsby Logo",
         "image": "/img/gatsby.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/KLOwdz",
         "github": "https://github.com/purecss-co/purecss-gatsby-logo",
@@ -264,7 +264,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Sandwich",
+        "title": "Sandwich",
         "image": "/img/sandwich.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/byPLQK",
         "github": "https://github.com/purecss-co/purecss-sandwich",
@@ -272,7 +272,7 @@
         "design": "https://dribbble.com/shots/5312830-Sandwich"
     },
     {
-        "title": "Responsive Letter M",
+        "title": "Letter M",
         "image": "/img/letter-m.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/OYqjRm",
         "github": "https://github.com/purecss-co/purecss-letter-m",
@@ -280,7 +280,7 @@
         "design": "https://dribbble.com/shots/6315007-M-Logo"
     },
     {
-        "title": "Responsive Letter T",
+        "title": "Letter T",
         "image": "/img/letter-t.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/yWGwGx",
         "github": "https://github.com/purecss-co/purecss-letter-t",
@@ -288,7 +288,7 @@
         "design": "https://dribbble.com/shots/6176376-T-Letter-Logo"
     },
     {
-        "title": "Responsive Space Helemt",
+        "title": "Space Helemt",
         "image": "/img/space-helmet.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/EzGmGR",
         "github": "https://github.com/purecss-co/purecss-space-helmet",
@@ -296,7 +296,7 @@
         "design": "https://www.uplabs.com/posts/astrounut-space-helmet"
     },
     {
-        "title": "Responsive Netlify Logo",
+        "title": "Netlify Logo",
         "image": "/img/netlify.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/PvyORQ",
         "github": "https://github.com/purecss-co/purecss-netlify-logo",
@@ -304,7 +304,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Unicorn Logo",
+        "title": "Unicorn Logo",
         "image": "/img/unicorn-logo.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/MdBeYg",
         "github": "https://github.com/purecss-co/purecss-unicorn-logo",
@@ -312,7 +312,7 @@
         "design": "https://dribbble.com/shots/5774723-Unicorn-logo"
     },
     {
-        "title": "Responsive Chrome V8 Logo",
+        "title": "Chrome V8 Logo",
         "image": "/img/v8.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/KLRZqQ",
         "github": "https://github.com/purecss-co/purecss-chrome-v8-logo",
@@ -320,7 +320,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Bob The Minion",
+        "title": "Bob The Minion",
         "image": "/img/minion.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/wXjpyB",
         "github": "https://github.com/purecss-co/purecss-bob-minion",
@@ -328,7 +328,7 @@
         "design": "https://www.uplabs.com/posts/bob-minion"
     },
     {
-        "title": "Responsive Sketch Logo",
+        "title": "Sketch Logo",
         "image": "/img/sketch.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/OEvEBz",
         "github": "https://github.com/purecss-co/purecss-sketch-logo",
@@ -336,7 +336,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Work Desk",
+        "title": "Work Desk",
         "image": "/img/workdesk.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/GGQaGM",
         "github": "https://github.com/purecss-co/purecss-work-desk",
@@ -344,7 +344,7 @@
         "design": "https://www.uplabs.com/posts/work_desk"
     },
     {
-        "title": "Responsive Discord Logo",
+        "title": "Discord Logo",
         "image": "/img/discord.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/VdyqOa",
         "github": "https://github.com/purecss-co/purecss-discord-logo",
@@ -352,7 +352,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Angular Logo",
+        "title": "Angular Logo",
         "image": "/img/angular.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/zappyQ",
         "github": "https://github.com/purecss-co/purecss-angular-logo",
@@ -360,7 +360,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Reddit Loader",
+        "title": "Reddit Loader",
         "image": "/img/reddit-loader.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/OEOZVW",
         "github": "https://github.com/purecss-co/purecss-reddit-loader",
@@ -368,7 +368,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Reddit Logo",
+        "title": "Reddit Logo",
         "image": "/img/reddit.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/bKYvpd",
         "github": "https://github.com/purecss-co/purecss-reddit-logo",
@@ -376,7 +376,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Unicorn",
+        "title": "Unicorn",
         "image": "/img/unicorn.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/YvEpWE",
         "github": "https://github.com/purecss-co/purecss-unicorn",
@@ -384,7 +384,7 @@
         "design": "https://dribbble.com/shots/1466843-Unicorn"
     },
     {
-        "title": "Responsive Wahdah Logo",
+        "title": "Wahdah Logo",
         "image": "/img/wahdah.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/bKrbRd",
         "github": "https://github.com/purecss-co/purecss-wahdah-logo",
@@ -392,7 +392,7 @@
         "design": ""
     },
     {
-        "title": "Responsive DigitalOcean Logo",
+        "title": "DigitalOcean Logo",
         "image": "/img/digitalocean.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/YvVKaX",
         "github": "https://github.com/purecss-co/purecss-digitalocean-logo",
@@ -400,7 +400,7 @@
         "design": ""
     },
     {
-        "title": "Responsive WordPress Logo",
+        "title": "WordPress Logo",
         "image": "/img/wordpress.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/MXJqWb",
         "github": "https://github.com/purecss-co/purecss-wordpress-logo",
@@ -408,7 +408,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Iron Man 2 Arc Reactor",
+        "title": "Iron Man 2 Arc Reactor",
         "image": "/img/arc-reactor-2.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/XYpjjV",
         "github": "https://github.com/purecss-co/purecss-ironman2-arcreactor",
@@ -416,7 +416,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Git Logo",
+        "title": "Git Logo",
         "image": "/img/git.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/ERyQGm",
         "github": "https://github.com/purecss-co/purecss-git-logo",
@@ -424,7 +424,7 @@
         "design": ""
     },
     {
-        "title": "Responsive GitLab Logo",
+        "title": "GitLab Logo",
         "image": "/img/gitlab.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/VdaxqW",
         "github": "https://github.com/purecss-co/purecss-gitlab-logo",
@@ -432,7 +432,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Avengers Logo",
+        "title": "Avengers Logo",
         "image": "/img/avengers.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/RJrywp",
         "github": "https://github.com/purecss-co/purecss-avengers-logo",
@@ -440,7 +440,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Ubuntu Logo",
+        "title": "Ubuntu Logo",
         "image": "/img/ubuntu.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/PaPMYE",
         "github": "https://github.com/purecss-co/purecss-ubuntu-logo",
@@ -448,7 +448,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Katsana Sticker",
+        "title": "Katsana Sticker",
         "image": "/img/katsana.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/NzqJWa",
         "github": "https://github.com/purecss-co/purecss-katsana-sticker",
@@ -456,7 +456,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Laman7 Logo",
+        "title": "Laman7 Logo",
         "image": "/img/laman7.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/wXBVzb",
         "github": "https://github.com/purecss-co/purecss-laman7-logo",
@@ -464,7 +464,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Shazam Listening Song",
+        "title": "Shazam Listening Song",
         "image": "/img/shazam.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/zaxGeg",
         "github": "https://github.com/purecss-co/purecss-shazam-logo",
@@ -472,7 +472,7 @@
         "design": ""
     },
     {
-        "title": "Responsive OMG Hackers Logo",
+        "title": "OMG Hackers Logo",
         "image": "/img/omgh.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/PaYjbX",
         "github": "https://github.com/purecss-co/purecss-omgh-logo",
@@ -480,7 +480,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Amanz Logo",
+        "title": "Amanz Logo",
         "image": "/img/amanz.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/yjWKWE",
         "github": "https://github.com/purecss-co/purecss-amanz-logo",
@@ -488,7 +488,7 @@
         "design": ""
     },
     {
-        "title": "Responsive JomParking Logo",
+        "title": "JomParking Logo",
         "image": "/img/jomparking.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/rKNBdE",
         "github": "https://github.com/purecss-co/purecss-jomparking-logo",
@@ -504,7 +504,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Iron Man Arc Reactor",
+        "title": "Iron Man Arc Reactor",
         "image": "/img/arc-reactor.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/odVpmE",
         "github": "https://github.com/purecss-co/purecss-ironman-arcreactor",
@@ -512,7 +512,7 @@
         "design": ""
     },
     {
-        "title": "Responsive eSentral Logo",
+        "title": "eSentral Logo",
         "image": "/img/esentral.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/odVGKr",
         "github": "https://github.com/purecss-co/purecss-esentral",
@@ -520,7 +520,7 @@
         "design": ""
     },
     {
-        "title": "Responsive ReactJS Logo",
+        "title": "ReactJS Logo",
         "image": "/img/reactjs.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/vjbOdE",
         "github": "https://github.com/purecss-co/purecss-reactjs-logo",
@@ -552,7 +552,7 @@
         "design": ""
     },
     {
-        "title": "Responsive TensorFlow Logo",
+        "title": "TensorFlow Logo",
         "image": "/img/tensorflow.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/qVBrrv",
         "github": "https://github.com/purecss-co/purecss-tensorflow-logo",
@@ -560,7 +560,7 @@
         "design": ""
     },
     {
-        "title": "Responsive Runcloud Logo",
+        "title": "Runcloud Logo",
         "image": "/img/runcloud.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/aVoaYr",
         "github": "https://github.com/purecss-co/purecss-runcloud-logo",
