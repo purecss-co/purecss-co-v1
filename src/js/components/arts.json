@@ -1,5 +1,13 @@
 [
     {
+        "title": "Johnny Depp",
+        "image": "/img/johnny-depp.png",
+        "codepen": "https://codepen.io/AsyrafHussin/pen/MWQPOJG",
+        "github": "https://github.com/purecss-co/johnny-depp",
+        "website": "",
+        "design": "https://ditalgo.com/product/johnny-depp-svg-png-pdf-johnny-depp-silhouette/"
+    },
+    {
         "title": "Marie",
         "image": "/img/marie.png",
         "codepen": "https://codepen.io/AsyrafHussin/pen/mdXjjzq",
