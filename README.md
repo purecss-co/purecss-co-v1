@@ -1,3 +1,6 @@
+### IMPORTANT! This repo is no longer maintain. 
+Checkout new repo here [AsyrafHussin/purecss-co](https://github.com/AsyrafHussin/purecss-co)
+
 # PureCSS.co
 
 The source code of https://purecss.co
