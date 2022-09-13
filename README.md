@@ -1,5 +1,5 @@
 ### IMPORTANT! This repo is no longer maintain. 
-Checkout new repo here [AsyrafHussin/purecss-co](https://github.com/AsyrafHussin/purecss-co)
+Checkout new repo here [purecss-co/purecss-co](https://github.com/purecss-co/purecss-co)
 
 # PureCSS.co
 
